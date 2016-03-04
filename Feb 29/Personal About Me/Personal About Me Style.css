@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background-color: #4F56FF;
 	color: #6CEEFF;
@@ -22,6 +26,7 @@ a {
 
 nav {
 	text-align: center;
+	color: #999993;
 }
 
 #currentpage {
@@ -41,3 +46,4 @@ ul li {
 #grayverbar {
 	color: #999993;
 }
+
