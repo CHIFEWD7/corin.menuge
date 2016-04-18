@@ -1,0 +1,24 @@
+h1 {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #222222;
+}
+
+.Banner {
+	margin-top: 0;
+    height: 107px;
+    background-image: url(../img/RedLine.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.HowardButton {
+	float: right;
+	position: relative;
+	top: 43px;
+	right: 45px;
+}
