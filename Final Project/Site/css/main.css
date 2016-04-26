@@ -14,6 +14,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*
@@ -95,6 +96,169 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.Site {
+  width: 100%;
+}
+
+.Header {
+    border-bottom: 5px solid #FFFFFF;
+}
+
+.headerdiv {
+    background-color: #D2202F;
+    height: 65px;
+    position: relative;
+}
+
+.headerdiv a {
+  padding: 8px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+.headerdiv p {
+  padding: 3px;
+}
+
+.Logo {
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 32px;
+    color: #222222;
+}
+
+.description {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    display: inline-block;
+    float: right;
+}
+
+.TrainImage {
+    height: 50px;
+    background-color: #01A1DD;
+}
+
+.BriefDesc {
+    height: 50px;
+    text-align: center;
+    font-style: italic;
+}
+
+.BriefDesc p {
+  margin: 0 0 0 15px;
+  padding: 15px;
+}
+
+.Banner {
+    height: 900px;
+    background-image: url(../img/ctatrainmap_IlanaBrodsky.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Line-info{
+  float: left;
+  width: 11%;
+  border-left: 1px solid #E6E6E6;
+  padding-left: 10px;
+}
+
+.sidebar, .Content {
+
+  transition: all 0.3s ease;
+  
+}
+
+.sidebar {
+  -webkit-transform: translateX(-360px);
+      -ms-transform: translateX(-360px);
+          transform: translateX(-360px);
+}
+
+
+.active .sidebar {
+  -webkit-transform: translateX(0px);
+      -ms-transform: translateX(0px);
+          transform: translateX(0px);  
+}
+
+.active .Content {
+  -webkit-transform: translateX(300px);
+      -ms-transform: translateX(300px);
+          transform: translateX(300px);  
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  text-transform: none;
+  font-size: 25px;
+  color: #F27841;
+  text-decoration: none;
+}
+
+.hamburger {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  top:21px;
+}
+
+.line {
+  border-bottom: 4px solid #222222;
+  width: 35px;
+  margin-bottom: 6px;
+}
+
+.line:last-child {
+  margin-bottom: 0;
+}
+
+nav {
+  width: 300px;
+  height: 100%;
+  background-color: #F4EF38;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 0;
+}
+
+h2 {
+  text-align: center;
+  color: #F27841;
+}
+
+ul {
+  list-style: none;
+  padding: 32px;
+}
+
+li {
+  color: #F27841;
+}
+
+li a {
+  text-decoration: none;
+  color: #F27841;
+}
+
+.MoreDeets {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.MoreDeets p {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 15px;
+  padding:10px;
+}
 
 
 
