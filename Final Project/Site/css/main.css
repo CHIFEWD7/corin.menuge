@@ -96,6 +96,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.Site {
+  width: 100%;
+}
+
 .Header {
     border-bottom: 5px solid #FFFFFF;
 }
@@ -149,8 +153,8 @@ textarea {
 }
 
 .Banner {
-    height: 470px;
-    background-image: url(../img/ctatrainmap.jpg);
+    height: 900px;
+    background-image: url(../img/ctatrainmap_IlanaBrodsky.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -242,6 +246,11 @@ li {
 li a {
   text-decoration: none;
   color: #F27841;
+}
+
+.MoreDeets {
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .MoreDeets p {
